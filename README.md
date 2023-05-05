@@ -10,7 +10,6 @@ This is a web application that helps users plan their meals for the week. The ap
 - Meal plan generator based on dietary preferences and user input
 - Shopping list generator based on meal plan
 - Recipe suggestions based on dietary preferences and user input
-- Integration with grocery delivery services
 - Ability to save and access past meal plans
 
 ## Tech Stack
@@ -30,7 +29,7 @@ This is a web application that helps users plan their meals for the week. The ap
 
 ## Contributing
 
-This app is a work in progress, and contributions are welcome! If you have any suggestions or want to report a bug, please create an issue in the GitHub repository.
+This app is in progress and contributions are welcome! If you have any suggestions or want to report a bug, please create an issue in the GitHub repository.
 
 ## License
 
