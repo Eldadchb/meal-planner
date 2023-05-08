@@ -1,7 +1,8 @@
-import "./App.css";
+import React from "react";
+import LoginPage from "./login-page/login-page";
 
-function App() {
-  return <div className="App">here</div>;
-}
+const App = () => {
+  return <LoginPage />;
+};
 
 export default App;
