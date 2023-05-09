@@ -1,8 +1,28 @@
-import React from "react";
-import LoginPage from "./login-page/login-page";
+import React from 'react';
+import { Container, Typography, Paper } from '@mui/material';
+import AuthenticatedApp from './auth/authenticated-app';
 
 const App = () => {
-  return <LoginPage />;
+  return (
+    <Container maxWidth="sm">
+      <Paper
+        sx={{
+          padding: 4,
+          textAlign: 'center',
+          marginTop: 8,
+          backgroundColor: 'white',
+        }}
+      >
+        <Typography variant="h4" gutterBottom>
+          Welcome to My App
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Please log in to continue.
+        </Typography>
+        <AuthenticatedApp />
+      </Paper>
+    </Container>
+  );
 };
 
 export default App;
