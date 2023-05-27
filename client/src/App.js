@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container, Typography, Paper } from '@mui/material';
-import AuthenticatedApp from './auth/authenticated-app';
+import React from "react";
+import { Container, Typography, Paper } from "@mui/material";
+import AuthenticatedApp from "./auth/authenticated-app";
 
 const App = () => {
   return (
@@ -8,9 +8,9 @@ const App = () => {
       <Paper
         sx={{
           padding: 4,
-          textAlign: 'center',
+          textAlign: "center",
           marginTop: 8,
-          backgroundColor: 'white',
+          backgroundColor: "white",
         }}
       >
         <Typography variant="h4" gutterBottom>
