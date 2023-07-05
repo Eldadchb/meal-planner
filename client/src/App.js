@@ -14,7 +14,7 @@ const App = () => {
         }}
       >
         <Typography variant="h4" gutterBottom>
-          Welcome to My App
+          Welcome to Meal Planner!
         </Typography>
         <Typography variant="body1" gutterBottom>
           Please log in to continue.
